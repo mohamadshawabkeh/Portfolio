@@ -7,12 +7,12 @@ const INFO = {
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
+		twitter: "https://twitter.com/M7mdSh998",
+		github: "https://github.com/mohamadshawabkeh",
+		linkedin: "https://www.linkedin.com/in/mohammad-fayez-shawabkeh/",
+		instagram: "https://instagram.com/mohamadfayez98?igshid=OGQ5ZDc2ODk2ZA==",
 		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		facebook: "https://www.facebook.com/mohamad.f.shawabkeh?mibextid=LQQJ4d",
 	},
 
 	homepage: {
@@ -24,23 +24,40 @@ const INFO = {
 	about: {
 		title: "I’m Mohamad Shawabkeh I live in Jordan, where I design the future.",
 		description:
-			"I've worked on a variety of projects over the internship and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"Despite my background as an Civil-Engineer, I followed my passion and starting a shift-career and following my intends to become a successful developer, looking forward and not afraid to face any new challenges.",
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "Reading articles enhances the skills of software engineers by providing valuable insights and staying up-to-date with the latest advancements.",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"It helps software engineers stay updated with the latest trends, best practices, and emerging technologies, ensuring they remain at the forefront of their field and can deliver cutting-edge solutions to clients and users.",
 	},
-
+	language:{
+		title: "Languages",
+		description: " HTML, JavaScript, CSS, SQL.",
+	},
+	tecSkills:{
+		title: "Technical Skills",
+		description:"Node.js(express), React Js, Jest, PostgreSQL, Git, Github, VS Code, Netlify, Sequelize.",
+	},
+	softSkills:{
+		title: "Soft Skills",
+		description:"Teamwork & communication, Time management, Attention to detail, Continuous learning, Documentation, Empathy, Creativity.",
+	},
+	experience:{
+		title: "Experiense",
+		description:"Internship Experience Abdul Aziz Al Ghurair School of Advanced Computing (ASAC) Amman, Jordan -- 2022, Code Fellows Certification – Advance Software Development in Full-Stack JavaScript.",
+	},
 	projects: [
 		{
-			title: "Project 1",
+			title: "Ticket Ease",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"It is a customer service ticketing system designed to streamline and enhance the process of handling customer inquiries and support requests.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://luminous-mousse-880c5b.netlify.app/",
+			linkGitText: "Github Page Source",
+			linkgithub :"https://github.com/orgs/TicketEase/repositories" ,
 		},
 
 		{
@@ -50,6 +67,8 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			linkGitText: "Github Page Source",
+			linkgithub :"https://github.com/orgs/TicketEase/repositories" ,
 		},
 
 		{
@@ -59,25 +78,31 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			linkGitText: "Github Page Source",
+			linkgithub :"https://github.com/orgs/TicketEase/repositories" ,
 		},
 
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
+		// {
+		// 	title: "Project 4",
+		// 	description:
+		// 		"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+		// 	linkText: "View Project",
+		// 	link: "https://github.com",
+		// linkGitText: "Github Page Source",
+		// linkgithub :"https://github.com/orgs/TicketEase/repositories" ,
+		// },
 
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
+		// {
+		// 	title: "Project 5",
+		// 	description:
+		// 		"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+		// 	linkText: "View Project",
+		// 	link: "https://github.com",
+		// linkGitText: "Github Page Source",
+		// linkgithub :"https://github.com/orgs/TicketEase/repositories" ,
+		// },
 	],
 };
 
