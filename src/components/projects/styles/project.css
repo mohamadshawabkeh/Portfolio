@@ -48,6 +48,28 @@
 }
 
 .project-link {
+	display:flex;
+	align-items:flex-end;
+	color: var(--secondary-color);
+	font-size: 12px;
+	padding-top: 20px;
+	
+}
+
+.project-link-icon {
+	padding-left: 20px;
+	font-size: 13px;
+}
+
+.project-link-text {
+	padding-left: 15px;
+	font-weight: 700;
+	
+}
+/* .project-github{
+
+}
+.project-linkhub {
 	display: flex;
 	align-items: center;
 	color: var(--secondary-color);
@@ -55,15 +77,16 @@
 	padding-top: 20px;
 }
 
-.project-link-icon {
+.project-link-iconhub {
 	padding-left: 5px;
 	font-size: 13px;
 }
 
-.project-link-text {
+.project-link-texthub {
 	padding-left: 20px;
 	font-weight: 700;
-}
+} */
+
 
 @media (max-width: 600px) {
 	.project {

@@ -3,6 +3,21 @@
 .email-wrapper {
 	display: flex;
 	padding-bottom: 20px;
+	animation-name: socialAnimation;
+	animation-duration: 1.5s;
+	animation-fill-mode: both;
+}
+
+@keyframes socialAnimation {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
 
 .social a,
@@ -33,4 +48,19 @@
 
 .email-wrapper {
 	padding-top: 20px;
+	animation-name: emailAnimation;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+@keyframes emailAnimation {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }

@@ -2,6 +2,21 @@
 
 .article {
 	display: flex;
+	animation-name: articleAnimation;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+@keyframes articleAnimation {
+	from {
+		opacity: 0;
+		transform: translateX(50%);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
 
 .article a {
@@ -20,24 +35,54 @@
 	border-radius: 20px;
 	opacity: 0.8;
 	padding: 30px;
+	transition: background-color 0.3s ease-in-out;
 }
 
 .article-right-side:hover {
 	background: #fafafa;
 	opacity: 1;
-	transition: background-color 0.3s ease-in-out;
 }
 
 .article-date {
 	padding-top: 30px;
 	font-size: 15px;
 	color: var(--tertiary-color);
+	animation-name: dateAnimation;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+@keyframes dateAnimation {
+	from {
+		opacity: 0;
+		transform: translateX(50%);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
 
 .article-title {
 	color: #000000;
 	font-size: 16px;
 	font-weight: 600;
+	animation-name: titleAnimation;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+@keyframes titleAnimation {
+	from {
+		opacity: 0;
+		transform: translateX(50%);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
 
 .article-description {
@@ -46,6 +91,21 @@
 	color: var(--secondary-color);
 	font-weight: 480;
 	line-height: 25px;
+	animation-name: descriptionAnimation;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+@keyframes descriptionAnimation {
+	from {
+		opacity: 0;
+		transform: translateX(50%);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
 
 .article-link {
@@ -53,6 +113,21 @@
 	font-size: 14px;
 	color: var(--link-color);
 	font-weight: 700;
+	animation-name: linkAnimation;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+@keyframes linkAnimation {
+	from {
+		opacity: 0;
+		transform: translateX(50%);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
 
 @media (max-width: 1024px) {
