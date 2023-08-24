@@ -143,7 +143,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a> */}
-							<a
+							{/* <a
 								href={INFO.socials.instagram}
 								target="_blank"
 								rel="noreferrer"
@@ -152,7 +152,7 @@ const Homepage = () => {
 									icon={faInstagram}
 									className="homepage-social-icon"
 								/>
-							</a>
+							</a> */}
 							<a
 								href={`mailto:${INFO.main.email}`}
 								target="_blank"
@@ -171,7 +171,7 @@ const Homepage = () => {
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
-								{myArticles.map((article, index) => (
+								{/* {myArticles.map((article, index) => (
 									<div
 										className="homepage-article"
 										key={(index + 1).toString()}
@@ -184,7 +184,7 @@ const Homepage = () => {
 											link={"/article/" + (index + 1)}
 										/>
 									</div>
-								))}
+								))} */}
 							</div>
 
 							<div className="homepage-works">

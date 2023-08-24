@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
@@ -12,11 +12,17 @@ import SEO from "../data/seo";
 import "./styles/contact.css";
 
 const Contact = () => {
+	const [showCV, setShowCV] = useState(false);
+
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
 
 	const currentSEO = SEO.find((item) => item.page === "contact");
+
+	const toggleCV = () => {
+		setShowCV((prevShowCV) => !prevShowCV);
+	};
 
 	return (
 		<React.Fragment>
@@ -48,30 +54,41 @@ const Contact = () => {
 							me. I welcome your feedback, questions, and
 							suggestions. If you have a specific question or
 							comment, please feel free to email me directly at
-							&nbsp;{""}
+							&nbsp;
 							<a href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
 							</a>
 							. I make an effort to respond to all messages within
 							24 hours, although it may take me longer during busy
-							periods. Alternatively, you can use the contact form
-							on my website to get in touch. Simply fill out the
-							required fields and I'll get back to you as soon as
-							possible. Finally, if you prefer to connect on
-							social media, you can find the below links for contact
-							{/* {" "}
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								{INFO.socials.instagram}
-							</a> */}
-							. I post regular updates and engage with my
-							followers there, so don't hesitate to reach out.
+							periods. Finally, don't hesitate to reach out.
 							Thanks again for your interest, and I look forward
 							to hearing from you!
+
+							<div className="cv-buttons" style={{ marginTop: "20px" }}>
+								<button
+									className="show-cv-button"
+									onClick={toggleCV}
+								>
+									{showCV ? "Close CV" : "Show CV"}
+								</button>
+							</div>
+
 						</div>
+
+						{showCV && (
+							<iframe
+								src={INFO.main.cvLink}
+								title="CV"
+								width="100%"
+								height="800px"
+								style={{
+									border: "none",
+									boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.2)",
+									borderRadius: "8px",
+									marginTop: "20px",
+								}}
+							></iframe>
+						)}
 					</div>
 
 					<div className="socials-container">
