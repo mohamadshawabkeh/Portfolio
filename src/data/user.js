@@ -1,9 +1,10 @@
 const INFO = {
 	main: {
-		title: "Portfolio for Mohammad Shawabkeh",
+		title: "Mohammad Shawabkeh",
 		name: "Mohamad Shawabkeh",
 		email: "mohamadshawabkeh45@outlook.com",
 		logo: "../logo.png",
+		cvLink: "/MohammadJSCV.pdf",
 	},
 
 	socials: {
@@ -38,7 +39,7 @@ const INFO = {
 	},
 	tecSkills:{
 		title: "Technical Skills",
-		description:"Node.js(express), React Js, Jest, PostgreSQL, Git, Github, VS Code, Netlify, Sequelize.",
+		description:"Node.js(express), React JS, Jest, PostgreSQL, Git, Github, VS Code, Netlify, Sequelize, CI/CD, TDD, JWT, Socket.io, AWS Cloud Services (lambda, API Gateway, S3, SQS-SNS, Elastic Beanstalk, DymanoDB), Swagger, Photoshop.",
 	},
 	softSkills:{
 		title: "Soft Skills",
@@ -61,14 +62,14 @@ const INFO = {
 		},
 
 		{
-			title: "Project 2",
+			title: "EV Rental [Backend]",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"EV Rental is an innovative platform connecting electric vehicle charger owners and renters. Owners list chargers for passive income and sustainable growth, while drivers find nearby chargers, easing range anxiety and boosting electric vehicle adoption. The secure platform emphasizes transparency through integrated payments and user reviews, contributing to a greener transportation future.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://ev-rental.onrender.com",
 			linkGitText: "Github Page Source",
-			linkgithub :"https://github.com/orgs/TicketEase/repositories" ,
+			linkgithub :"https://github.com/EV-Charger-Rental" ,
 		},
 
 		{
